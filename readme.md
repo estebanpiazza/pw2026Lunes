@@ -5,4 +5,4 @@ Este es un cambio
 ## Ppts
 
 ### Clase 1
-[Presentación] (https://docs.google.com/presentation/d/10vUevTtv6Q9Odcyhx7XSj7bvGler7dtNW9Mf7Pfls4U/edit?usp=sharing)
+[Presentación](https://docs.google.com/presentation/d/10vUevTtv6Q9Odcyhx7XSj7bvGler7dtNW9Mf7Pfls4U/edit?usp=sharing)
