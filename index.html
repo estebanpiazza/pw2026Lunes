@@ -5,88 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esteban</title>
-    <!--  <style>
-        li{display: inline;}
-    </style> -->
+    <!-- external -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- internal -->
     <style>
-
+        body {
+            color: white;
+            background-color: black;
+        }
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body>
-    <header></header>
-    <main>
-        <ul type="none">
-            <li><a href="https://google.com" target="_blank">home</a></li>
-            <li><a href="#pieDePagina">nosotros</a></li> <!-- flag -->
-            <li><a href="#">contacto</a></li>
-            <li><a href="#">otra cosa</a></li>
-        </ul>
-        <div>
-            <h1>Encabezado n1</h1>
-            alumnos
-            hola
-            <h2>esto es un h2</h2>
-            <!-- <nomber> contenido </nombre> -->
-            <h6>Soy el mas pequeñito</h6>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur consequuntur vero quibusdam nemo minus
-                esse
-                suscipit odio placeat dolorum, maxime sequi optio saepe voluptatem sit dolor blanditiis amet neque
-                recusandae.(PLACEHOLDER) </p>
-            <p> <b><i>Lorem</i></b> <i>ipsum</i> <em>dolor</em> sit amet, consectetur adipisicing elit. Quibusdam dolore
-                perferendis quae beatae commodi. Deleniti harum blanditiis perferendis sed! Et, dolor. Reiciendis
-                facilis
-                aspernatur nobis ut eveniet sapiente, laboriosam voluptas!
-                Fugit consequuntur dolorum aperiam expedita animi, laborum hic quas vel nostrum neque perferendis
-                delenitialumnos
-                quaerat reiciendis molestias harum deserunt earum labore magni sint voluptates. Impedit sed commodi
-                excepturi nisi tempore.
-                <br>Tempora error est sunt distinctio aliquid, enim reiciendis, quaerat nobis facere consequatur odio
-                incidunt vitae? Voluptatibus nam reprehenderit impedit quia. Blanditiis aut commodi, deleniti excepturi
-                repudiandae architecto corrupti laudantium tenetur.
-                Doloribus autem itaque minus iure ipsa obcaecati! Quaerat officia odio tempore perferendis repudiandae
-                accusamus repellat, inventore, corrupti quam ex voluptatibus quia! Nisi, perspiciatis ex minus assumenda
-                at
-                odio dicta laborum.
-                Tempora eius voluptatibus maiores, nisi deserunt esse enim sit modi sed dolore, dolorum consectetur! Non
-                saepe dolorem dolore ratione ut quis quaerat dignissimos rerum animi, vero excepturi nobis aliquam
-                voluptas?
-            </p>
+<body id="fondo" class="cuerpo espaciado">
+
+
+    <div class="container">
+        <div class="header">
+            <ul type="none" "><!-- inline -->
+            <li ><a href=" https://google.com" target="_blank" class="elementosListaPrincipal">home</a></li>
+                <li><a href="#pieDePagina" class="elementosListaPrincipal"> nosotros</a></li> <!-- flag -->
+                <li><a href="#" class="elementosListaPrincipal">contacto</a></li>
+                <li><a href="#" class="elementosListaPrincipal">otra cosa</a></li>
+            </ul>
         </div>
-        alumnos
-        <marquee behavior="" direction=""> Soy muy fea </marquee>
-        <ul type="square"><!-- lista desordenada -->
-            <li id="liPrincipal">Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-        </ul>
-        <ol type="A" start="102"> <!--  lista ordenada -->
-            <li>Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-            <li>Tengo 4 cursores ahora</li>
-        </ol>
-    </main>
-    <footer id="pieDePagina"></footer>
-    alumnos
+        
+        <div class="col-izq">
+            <div>
+                <h1 style="color:green" id="">Encabezado n1</h1>
+                alumnos
+                hola
+                <h2 id="subtituloPrincipal">esto es un h2</h2>
+                <!-- <nomber> contenido </nombre> -->
+                <h6>Soy el mas pequeñito</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur consequuntur vero quibusdam nemo
+                    minus
+                    esse
+                    sencabezadoPrincipaluscipit odio placeat dolorum, maxime sequi optio saepe voluptatem sit dolor
+                    blanditiis
+                    amet neque
+                    recusandae.(PLACEHOLDER) </p>
+                <p> <b><i>Lorem</i></b> <i>ipsum</i> <em>dolor</em> sit amet, consectetur adipisicing elit. Quibusdam
+                    dolore
+                    perferendis quae beatae commodi. Deleniti harum blanditiis perferendis sed! Et, dolor. Reiciendis
+                    facilis
+                    aspernatur nobis ut eveniet sapiente, laboriosam voluptas!
+                    Fugit consequuntur dolorum aperiam expedita animi, laborum hic quas vel nostrum neque perferendis
+                    delenitialumnos
+                    quaerat reiciendis molestias harum deserunt earum labore magni sint voluptates. Impedit sed commodi
+                    excepturi nisi tempore.
+                    <br>Tempora error est sunt distinctio aliquid, enim reiciendis, quaerat nobis facere consequatur
+                    odio
+                    incidunt vitae? Voluptatibus nam reprehenderit impedit quia. Blanditiis aut commodi, deleniti
+                    excepturi
+                    repudiandae architecto corrupti laudantium tenetur.
+                    Doloribus autem itaque minus iure ipsa obcaecati! Quaerat officia odio tempore perferendis
+                    repudiandae
+                    accusamus repellat, inventore, corrupti quam ex voluptatibus quia! Nisi, perspiciatis ex minus
+                    assumenda
+                    at
+                    odio dicta laborum.
+                    Tempora eius voluptatibus maiores, nisi deserunt esse enim sit modi sed dolore, dolorum consectetur!
+                    Non
+                    saepe dolorem dolore ratione ut quis quaerat dignissimos rerum animi, vero excepturi nobis aliquam
+                    voluptas?
+                </p>
+            </div>
+        </div>
+        <div class="col-der">
+            alumnos
+            <marquee behavior="" direction=""> Soy muy fea </marquee>
+            <ul type="square"><!-- lista desordenada -->
+                <li id="liPrincipal">Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+            </ul>
+            <ol type="A" start="102"> <!--  lista ordenada -->
+                <li>Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+                <li>Tengo 4 cursores ahora</li>
+            </ol>
+            </main>
+        </div>
+    </div>
 
-    <input type="text">
-    <input type="password">
-    <input type="button" value="soy un boton">
-    <input type="color" name="" id="">
-    <input type="datetime-local" name="" id="">
-    <input type="email" name="" id="">
-    <input type="radio" name="" id="">
-    <input type="checkbox" name="" id="">
-    <input type="tel" name="" id="">
 
-    <form action="" method="get"></form>
-    <form action="" method="post"></form>
 
-<br>
-<br>
-<br>
+<div class="footer"> <input type="text">
+            <input type="password">
+            <input type="button" value="soy un boton">
+            <input type="color" name="" id="">
+            <input type="datetime-local" name="" id="">
+            <input type="email" name="" id="">
+            <input type="radio" name="" id="">
+            <input type="checkbox" name="" id="">
+            <input type="tel" name="" id="">
+
+            <form action="" method="get"></form>
+            <form action="" method="post"></form>
+        </div>
+
+
+
+
+
 </body>
 
 </html>

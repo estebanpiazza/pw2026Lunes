@@ -1,0 +1,85 @@
+/* 
+Css - Cascade Style Sheet
+Hoja de estilo en cascada
+*/
+
+/*  identificador { propiedad : valor; propiedad : valor; }   */
+body {
+    background-color: red;
+    margin: 50px;
+}
+
+body {
+    background-color: brown;
+}
+
+/* formas de enlazar html con css */
+
+/* External - la que vamos a usar con la etiqueta link 
+    Internal - no la recomendaamos xq se hace mucho choclo
+    inline - mala pratica, no hacer nunca
+*/
+/* primer identicador es el tag: 
+body, h1, p, cualquier tag */
+
+.elementosListaPrincipal {
+    color: yellowgreen;
+
+}
+
+#subtituloPrincipal {
+    color: darkmagenta
+}
+
+/********************/
+#fondo {
+    background-color: rgb(144, 80, 255);
+}
+
+.cuerpo {
+    background-color: gold;
+}
+
+
+
+p {
+      font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+    border: 1px solid black;
+}
+
+button{
+    background-color: red;
+}
+button:hover {
+    background-color: green;
+}
+
+li{display: inline;}
+
+#encabezadoPrincipal{
+    position: relative;
+    left:200px;
+    top:100px;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "col-izq col-der"
+    "footer footer";
+}
+
+.header { grid-area: header; }
+
+.footer { grid-area: footer; }
+
+.col-izq { grid-area: col-izq; }
+
+.col-der { grid-area: col-der; }
