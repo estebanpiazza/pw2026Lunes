@@ -23,8 +23,12 @@
 </head>
 
 <body id="fondo" class="cuerpo espaciado">
-
-
+    <div id="textoDinamico"></div>
+<input type="button" value="No hago nada, parezco alumno del ITBA" id="botonUnico">
+<input type="button" value="Otro boton" id="otroBoton" onclick="saludar">
+<h1 id="textoSaludo">HOla</h1>
+<input type="button" value="Otro boton mas" id="botonQuery">
+<!-- xx="saludar" -->
     <div class="container">
         <div class="header">
             <ul type="none" "><!-- inline -->
@@ -98,7 +102,7 @@
 
 
 
-<div class="footer"> <input type="text">
+<div class="footer"> <input type="text" id="textoIngresado">
             <input type="password">
             <input type="button" value="soy un boton">
             <input type="color" name="" id="">
@@ -117,5 +121,6 @@
 
 
 </body>
+<script src="manejoDOM.js"></script>
 
 </html>
