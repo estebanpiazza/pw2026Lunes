@@ -15,3 +15,6 @@ Este es un cambio
 
 ### Clase 6
 [Presentacion](https://docs.google.com/presentation/d/1HAjWV6aQiNV9j-k8hjvy0YchqRD6-WNCcnJmayOCDrA/edit?usp=sharing)
+
+### Clase 7
+[Presentacion](https://docs.google.com/presentation/d/10yaxzTnM4utZ4PLG26i2F7EZLPHVnKojy5S9cztKOjE/edit?usp=sharing)
