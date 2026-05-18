@@ -18,3 +18,9 @@ Este es un cambio
 
 ### Clase 7
 [Presentacion](https://docs.google.com/presentation/d/10yaxzTnM4utZ4PLG26i2F7EZLPHVnKojy5S9cztKOjE/edit?usp=sharing)
+
+### Clase 9
+[Presentacion](https://docs.google.com/presentation/d/1MuA3abQT9NejWaaF74T4l5A0rdeK4BNW9REtFk7AISc/edit)
+
+### Clase 10
+[Presentacion](https://docs.google.com/presentation/d/1QeDWCF3Pi-7IiXkdyeU47by9bU7XDgRH_XrZFtGgM4E/edit?slide=id.p1#slide=id.p1)
